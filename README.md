@@ -1,10 +1,12 @@
 In the bot.js file replace the username and password in the two different functions. I've called them out in brackets in the file. examples of what to replace below
 
-<replace with the name of the bot in quotes and remove the brakets>
+replace with the name of the bot in quotes and remove the brackets
 example:
 "BotName"
 
-<replace with the oauth code you get from twitch surrounded by quotes and remove the brackets>
+You can get an oauth token from twitch at https://twitchapps.com/tmi/ however I recommend setting up a second account so you're main account doesn't look like a bot. The oauth token will be used for the password.
+
+replace with the oauth code you get from twitch surrounded by quotes and remove the brackets
 example:
 "oauth:1235f54g654g6f"
 
