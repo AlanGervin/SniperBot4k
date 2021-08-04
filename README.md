@@ -1,5 +1,7 @@
 Please note you must also have a copy of node.js installed to run the bot.
 
+Once you have downloaded the files into a directory. Open that directory in a command prompt. Run the command "npm install" without the quotes. This will install all the dependencies.
+
 In the bot.js file replace the username and password in the two different functions. I've called them out in brackets in the file. examples of what to replace below
 
 replace with the name of the bot in quotes and remove the brackets
@@ -15,6 +17,5 @@ example:
 Make sure to add your bot to your channel mods by using the command /mod BotName on your twitch channel.
 
 open this directory in cmd then type the following command replacing yourLobby with your channel name and sniperLobby with the channel name of the lobby you are trying to snipe. Make sure you get the order correct otherwise you'll send messages to the sniper lobby instead of your channel.
-
 
 node bot.js yourLobby sniperLobby
